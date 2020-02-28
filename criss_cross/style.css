@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+h1{
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+.bojnoPolje {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.polje {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #333333;
+    border: 1px solid #ffffff;
+    cursor: cell;
+    line-height: 100px;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.rezultat{
+    margin: 1%;
+}
+
+.resetujIgru{
+    margin: 1%;
+    background-color: #000000;
+    color:#ffffff;
+    padding: 1.5%;
+    outline: 3px solid #000000;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+

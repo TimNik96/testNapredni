@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entitien Official Site</title>
+    <link rel="stylesheet" href="KIDS.css">
+    <link rel="shortcut icon" href="pic/watermarkBlack.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="pic/instaWhite.png" alt="instaLogo" id="logoInsta">
+        </a>
+        <a href="index.html">
+            <img src="pic/LogoBlack.jpg" alt="Logo" id="logoZaSajt">
+        </a>
+        <a href="#">
+            <img src="pic/faceWhite.png" alt="faceLogo" id="logoFace">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li>
+                    HOME
+                </li>
+            </a>
+            <a href="MEN.html">
+                <li>
+                    MUŠKARCI
+                </li>
+            </a>
+            <a href="WOMEN.html">
+                <li>
+                    ŽENE
+                </li>
+            </a>
+            <a href="KIDS.html">
+                <li>
+                    DECA
+                </li>
+            </a>
+            <a href="aboutus.html">
+                <li>
+                    O NAMA
+                </li>
+            </a>
+            <a href="contactus.html">
+                <li>
+                    KONTAKT
+                </li>
+            </a>
+        </ul>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">MAJICE</a>
+        <a href="#">AKTIVNI VES</a>
+        <a href="#">DUKSEVI</a>
+        <a href="#">SORCEVI</a>
+        <a href="#">CARAPE</a>
+        <div id="cart">
+            <img src="pic/cartWhite.jpg" alt="cart" style="width: 15%; padding-top: 2%;">
+            <div>
+                <!-- ovde bi se pojavljivali artikli za kupovinu -->
+            </div>
+            <a href="#">See more</a>
+        </div>
+    </div>
+
+    <span id="dugme" onclick="openNav()" style="color: #000000; cursor: pointer;">
+        OPEN
+    </span>
+
+    <div class="main">
+
+        <div class="artikal">
+            <img src="pic/Untitled-16.jpg" alt="duks" style="width: 40%;">
+            <div class="red">
+                <p>7999,00rsd</p>
+                <a href="#">Kupi</a>
+            </div>
+        </div>
+
+        <div class="artikal">
+            <img src="pic/Untitled-2.jpg" alt="duks" style="width: 40%;">
+            <div class="red">
+                <p>4999,00rsd</p>
+                <a href="#">Kupi</a>
+            </div>
+        </div>
+
+        <div class="artikal">
+            <img src="pic/Untitled-14.jpg" alt="duks" style="width: 40%;">
+            <div class="red">
+                <p>6499,00rsd</p>
+                <a href="#">Kupi</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>
+            Copyright &copy; 2020 | All Rights Reserved
+        </p>
+        <p> Entitien Inc.</p>
+    </footer>
+
+    <script>
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+</body>
+
+</html>
